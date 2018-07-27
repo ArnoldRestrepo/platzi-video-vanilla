@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/modal.css" />
 </head>
 <body>
-  <section class="home" id="home">
+  <section class="home search-active" id="home">
     <div class="home-sidebar">
       <div class="sidebar">
         <div class="logo">
@@ -167,7 +167,7 @@
           <div class="user">
             <p>
               <img src="img/covers/gorillaz.jpg" alt=""/>
-              <span>Usuario</span>
+              <span>Leonidas Esteban</span>
             </p>
           </div>
         </div>
@@ -183,7 +183,14 @@
             <h3 class="primaryPlaylist-topic">Para llorar</h3>
             <h2 class="primaryPlaylist-title">Drama</h2>
             <div class="primaryPlaylist-list" id="drama">
-              <img src="img/loader.gif" width="50" height="50" alt="">
+              <div class="primaryPlaylistItem">
+                <div class="primaryPlaylistItem-image">
+                  <img src="img/covers/midnight.jpg">
+                </div>
+                <h4 class="primaryPlaylistItem-title">
+                  Titulo de la peli
+                </h4>
+              </div>
             </div>
           </div>
           <div class="primaryPlaylist">
@@ -197,7 +204,15 @@
       <!-- </section> -->
     </div>
     <div class="home-featuring" id="featuring">
-
+      <div class="featuring">
+        <div class="featuring-image">
+          <img src="img/covers/solar-sailer.jpg" width="70" height="100" alt="">
+        </div>
+        <div class="featuring-content">
+          <p class="featuring-title">Pelicula encontrada</p>
+          <p class="featuring-album">titulo de la peli</p>
+        </div>
+      </div>
     </div>
   </section>
   <div class="overlay" id="overlay">
@@ -213,6 +228,6 @@
     </div>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="src/js/home.js"></script>
+  <script src="js/home.js"></script>
 </body>
 </html>
