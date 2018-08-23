@@ -184,6 +184,10 @@ body {
     font-size: 20px;
     font-weight: 400;
   }
+
+  .primaryPlaylist-update{
+    cursor: pointer;
+  }
   .primaryPlaylist-list {
     display: flex;
     overflow: auto;

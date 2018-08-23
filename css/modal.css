@@ -43,7 +43,6 @@
     display: flex;
   }
   .modal {
-  
     width: 500px;
     background: white;
     padding: 2em;
@@ -74,9 +73,18 @@
     object-fit: cover;
     margin-right: 15px;
   }
+  .modal-stars{
+    display: flex;
+    justify-content: space-around;
+    background: #ff463b;
+    margin: .5rem 0;
+    border-radius: .5rem;
+    color: #FFF;
+  }
   .modal-content p {
     align-self: center;
   }
+
   /*@keyframes animationIn {*/
   @keyframes modalIn {
     0% {
