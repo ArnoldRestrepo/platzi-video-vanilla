@@ -167,6 +167,9 @@ body {
     border-radius: 50%;
     margin-right: 10px;
   }
+  .user span{
+    font-weight: bold;
+  }
   
   .primary-list {
     grid-area: list;
@@ -187,6 +190,8 @@ body {
 
   .primaryPlaylist-update{
     cursor: pointer;
+    font-size: 12px;
+    font-style: normal;
   }
   .primaryPlaylist-list {
     display: flex;
@@ -257,3 +262,9 @@ body {
       opacity: 1;
     }
   }
+
+@media screen and (max-width: 650px){
+  .home{
+    grid-template-columns: 250px 1fr; 
+  }
+}
