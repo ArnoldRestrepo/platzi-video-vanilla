@@ -14,8 +14,8 @@ El **resultado** de este proyecto es la mejora en los tiempos de carga, la manip
 
 - Vanilla Javascript
 - CSS GRID System 
-- [YTS.AM] (https://yts.am/) API REST - Búsqueda de películas
-- [Random User Generator] (https://randomuser.me/) Open Source API para generar usuarios random
+- [YTS.AM](https://yts.am/) API REST - Búsqueda de películas
+- [Random User Generator](https://randomuser.me/) Open Source API para generar usuarios random
 
 ## Authors
 
